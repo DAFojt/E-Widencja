@@ -7,5 +7,6 @@ namespace E_Widencja.Models
 {
     public class SystemUser
     {
+
     }
 }

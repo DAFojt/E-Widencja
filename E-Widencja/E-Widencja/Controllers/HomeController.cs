@@ -26,5 +26,12 @@ namespace E_Widencja.Controllers
 
             return View();
         }
+
+        public ActionResult Employee()
+        {
+            ViewBag.Message = "Twój pracownik.";
+
+            return View();
+        }
     }
 }

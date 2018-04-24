@@ -1,0 +1,6 @@
+J:\Programowanie\E-Widencja\E-Widencja\C-OreDB\bin\Debug\C-OreDB.dll
+J:\Programowanie\E-Widencja\E-Widencja\C-OreDB\bin\Debug\C-OreDB.pdb
+J:\Programowanie\E-Widencja\E-Widencja\C-OreDB\obj\Debug\C-OreDB.csproj.CoreCompileInputs.cache
+J:\Programowanie\E-Widencja\E-Widencja\C-OreDB\obj\Debug\C-OreDB.dll
+J:\Programowanie\E-Widencja\E-Widencja\C-OreDB\obj\Debug\C-OreDB.pdb
+J:\Programowanie\E-Widencja\E-Widencja\C-OreDB\obj\Debug\C-OreDB.csprojResolveAssemblyReference.cache

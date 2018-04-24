@@ -41,7 +41,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DBConfig\DBConfig.cs" />
-    <Compile Include="Models\ContractorDB.cs" />
+    <Compile Include="Models\EmployeeDB.cs" />
+    <Compile Include="Interfaces\ModelsInterface.cs" />
+    <Compile Include="Interfaces\MustInitialize.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

@@ -67,3 +67,5 @@ J:\Programowanie\E-Widencja\E-Widencja\E-Widencja\obj\Debug\E-Widencja.csproj.Co
 J:\Programowanie\E-Widencja\E-Widencja\E-Widencja\obj\Debug\E-Widencja.csproj.CopyComplete
 J:\Programowanie\E-Widencja\E-Widencja\E-Widencja\obj\Debug\E-Widencja.dll
 J:\Programowanie\E-Widencja\E-Widencja\E-Widencja\obj\Debug\E-Widencja.pdb
+J:\Programowanie\E-Widencja\E-Widencja\E-Widencja\bin\C-OreDB.dll
+J:\Programowanie\E-Widencja\E-Widencja\E-Widencja\bin\C-OreDB.pdb

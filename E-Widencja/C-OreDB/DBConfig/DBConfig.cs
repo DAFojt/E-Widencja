@@ -8,5 +8,6 @@ namespace C_OreDB.DBConfig
 {
     class DBConfig
     {
+
     }
 }
