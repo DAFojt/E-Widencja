@@ -187,7 +187,10 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Home\Employee.cshtml" />
+    <Content Include="Views\Shared\Editor\EmployeeEditor.cshtml" />
+    <Content Include="Views\Shared\View\EmployeeView.cshtml" />
+    <Content Include="Views\Home\EmployeeEdit.cshtml" />
+    <Content Include="Views\Home\EmployeeView.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

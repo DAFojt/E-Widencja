@@ -1,0 +1,16 @@
+﻿@model E_Widencja.Models.Employee
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+@{Html.RenderPartial("View/EmployeeView"); }  
+<p>
+    @Html.ActionLink("Wróć do listy", "Index")
+</p>

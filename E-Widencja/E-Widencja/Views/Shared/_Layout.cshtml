@@ -20,7 +20,8 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Pracownik", "Employee", "Home")</li>
+                    <li>@Html.ActionLink("Pracownik - edycja", "EmployeeEdit", "Home")</li>
+                    <li>@Html.ActionLink("Pracownik - podgląd", "EmployeeView", "Home")</li>
 
                 </ul>
             </div>
@@ -39,7 +40,7 @@
     @RenderSection("scripts", required: false)  
 
 </body>
-<scipt>
-
-</scipt>
+<script type="text/javascript">
+    console.log("test");
+</script>
 </html>

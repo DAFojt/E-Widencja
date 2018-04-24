@@ -27,11 +27,25 @@ namespace E_Widencja.Controllers
             return View();
         }
 
-        public ActionResult Employee()
+        public ActionResult EmployeeEdit()
         {
             ViewBag.Message = "Twój pracownik.";
 
             return View();
+        }
+
+        public ActionResult EmployeeView()
+        {
+            ViewBag.Message = "Twój pracownik.";
+
+            return View();
+        }
+
+        [ChildActionOnly]
+        public ActionResult ActionPartialView(string s)
+
+        {
+            return PartialView(s);
         }
     }
 }

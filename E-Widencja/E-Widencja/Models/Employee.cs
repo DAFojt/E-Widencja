@@ -1,4 +1,5 @@
 ﻿using C_OreDB;
+using C_OreDB.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -7,10 +8,9 @@ using System.Web;
 
 namespace E_Widencja.Models
 { 
-    public class Employee
+    public class Employee : ModelsInterface
     {
         private string _firstName;
-
         [Display(Name = "Imię")]
         public string firstName
         {
@@ -57,6 +57,11 @@ namespace E_Widencja.Models
             EmployeeDB employee = new EmployeeDB(id);
             firstName = employee.firstName;
             surname = employee.surname;
+        }
+
+        public void save()
+        {
+
         }
     }
 }

@@ -8,6 +8,6 @@ namespace C_OreDB.DBConfig
 {
     class DBConfig
     {
-
+        //Połączenie z bazą danych
     }
 }

@@ -1,0 +1,23 @@
+﻿@model E_Widencja.Models.Employee
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+@{Html.RenderPartial("Editor/EmployeeEditor"); }
+
+<div class="form-group">
+    <div class="col-md-offset-2 col-md-10">
+        <input type="submit" value="Utwórz" class="btn btn-default" />
+    </div>
+</div>
+
+<p>
+    @Html.ActionLink("Wróć do listy", "Index")
+</p>
